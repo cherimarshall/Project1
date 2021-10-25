@@ -1,0 +1,274 @@
+/* color vars */
+:root {
+	--main-color: #572E89;
+	--dk-color: #572E89;
+	--md-color: #D7E2CB;
+	--lt-color: #cbb2d4;
+	--lt-lt-color: #D7E2CB;
+	--white: #eee;
+	--black: #222;
+	
+}
+
+
+
+/* google font style */
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: 900;
+	font-size: 90px;
+}
+h2,
+li,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+
+h5,
+h6 {
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+	padding-top: 0.3rem;
+}
+
+p {
+	font-family: 'Montserrat medium', sans-serif;
+}
+
+
+/* media query related styles */
+/* styles for extra-small (mobile) devices */
+h1 {
+	font-size: 2.6rem;
+	line-height: 2.7rem;
+	letter-spacing: -0.04rem;
+}
+
+header {
+	padding: 2rem 1rem 1.5rem;
+	
+}
+
+section {
+	padding: 2rem 1rem 2.2rem;
+	
+}
+
+footer {
+	padding: 2rem 1rem 4rem;
+}
+
+.featurette-heading {
+	font-family: 'Dancing Script', cursive;
+	color: #572E89;
+	font-size: 42px;
+	margin-left: 0px;
+}
+
+.menu {
+	margin-left: 0px;
+}
+
+/* styles for small devices */
+@media (min-width: 576px) {
+	h1 {
+		font-size: 3.0rem;
+		line-height: 3.2rem;
+		letter-spacing: -0.09rem;
+	}
+
+	header {
+		padding: 4rem 4rem 3rem;
+	}
+
+	section {
+		padding: 7rem 4rem 8rem;
+		
+	}
+
+	footer {
+		padding: 3rem 4rem 5rem;
+	}
+
+	.carousel-item {
+		width: 65%;
+		max-width: 78%;
+		min-width: 60%;
+	}
+
+	.featurette-heading {
+	font-family: 'Dancing Script', cursive;
+	color: #572E89;
+	font-size: 56px;
+	margin-left: 0px;
+}
+
+h4 {
+	margin-left: 0px;
+}
+
+.menu {
+	margin-left: 0px;
+}
+}
+
+/* styles for medium devices */
+@media (min-width: 768px) {
+	h1 {
+		font-size: 4.5rem;
+		line-height: 4.8rem;
+		letter-spacing: -0.11rem;
+	}
+
+	header {
+		padding: 6rem 7rem 5rem;
+
+	}
+
+	section {
+		padding: 6rem 7rem 8rem;
+	}
+
+	footer {
+		padding: 3rem 7rem 5rem;
+	}
+	.menu {
+		margin-left: 225px;
+	}
+}
+
+
+/* styles for large devices */
+@media (min-width: 992px) {
+	.carousel-item {
+		width: 65%;
+		max-width: 78%;
+		min-width: 60%;
+		margin-left: 225px;
+		margin-right: 150px;
+	}
+
+	.featurette-heading {
+		font-family: 'Dancing Script', cursive;
+		color: #572E89;
+		font-size: 56px;
+		margin-left: 220px;
+	}
+
+	h4 {
+		margin-left: 150px;
+	}
+}
+
+/* styles for extra-large devices */
+@media (min-width: 1200px) {
+	h4 {
+		margin-left: 150px;
+	}
+
+}
+
+
+/* body margin used to offset height of navbar */
+body {
+	margin-top: 56px;
+}
+
+
+/* nav */
+.nav-pills .nav-link.active {
+	color: var(--w);
+	background-color: var(--dk-color);
+}
+
+.navbar-nav .nav-link {
+	padding-left: 14px;
+}
+
+
+/* colors */
+.dk-color {
+	background-color: var(--dk-color);
+}
+
+.lt-color {
+	background-color: var(--md-color);
+}
+
+.xlt-color {
+	background-color: var(--lt-color);
+}
+
+.white-type {
+	color: var(--white);
+}
+
+
+/* cards */
+.card {
+	padding: 0.7rem;
+	margin-bottom: 2rem;
+	border: 0;
+	background-color: var(--lt-lt-color);
+}
+
+.card>img {
+	margin-bottom: 0.75rem;
+}
+
+.card-text {
+	font-size: 95%;
+}
+
+
+/* footer */
+.dark-footer {
+	background-color: var(--dk-color);
+	color: var(--white);
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+	min-height: 300px;
+}
+
+.dark-footer a {
+	color: var(--white);
+	text-decoration: underline;
+}
+
+.dark-footer a:hover {
+	color: var(--white);
+	text-decoration: underline;
+}
+
+
+/* carousel */ 
+.carousel .carousel-control-prev-icon {
+	background-color: #B0C496
+}
+
+.carousel .carousel-control-next-icon {
+	background-color: #B0C496
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+
+/* Our Story */
+.featurette-heading1 {
+	font-family: 'Dancing Script', cursive;
+	color: #572E89;
+	font-size: 42px;
+	margin-left: 0px;;
+}
